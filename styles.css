@@ -1,0 +1,68 @@
+body {
+  background-image: url("https://i.pinimg.com/originals/fe/02/3b/fe023b93d6c0b95079b7704af192467b.jpg");
+}
+
+#container {
+  text-align: center;
+  margin: auto auto;
+}
+
+#playAgainBtn {
+  position: relative;
+  border-color: black;
+  outline-color: black;
+  top: 550px;
+  left: 425px;
+}
+
+#rockBtn {
+  position: relative;
+  border-color: black;
+  outline-color: red;
+  top: 300px;
+  right: 200px;
+  margin-right: 5px;
+}
+
+#paperBtn {
+  position: relative;
+  border-color: black;
+  outline-color: teal;
+  top: 300px;
+  right: 200px;
+  margin-right: 5px;
+}
+
+#scissorsBtn {
+  position: relative;
+  border-color: black;
+  outline-color: yellow;
+  top: 300px;
+  right: 200px;
+}
+
+.popupText {
+  font-family: Arial;
+  font-weight: bold;
+}
+
+#resultDiv {
+  position: absolute;
+  top: 120px;
+  left: 820px;
+  width: 300px;
+}
+
+#winnerDiv {
+  position: absolute;
+  top: 120px;
+  left: 820px;
+  width: 300px;
+}
+
+#currentScoreDiv {
+  position: absolute;
+  top: 150px;
+  left: 770px;
+  width: 400px;
+}
