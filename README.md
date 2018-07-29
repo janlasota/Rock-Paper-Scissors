@@ -52,6 +52,6 @@ function computerPlay(){
 
 # Future Plans
 
-* Make the site responsive
+* Make the page responsive
 * Add more aesthetics to the page
 * Add a player v player option
