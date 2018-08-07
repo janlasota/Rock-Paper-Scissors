@@ -5,40 +5,51 @@ body {
 #container {
   text-align: center;
   margin: 0 auto;
+  max-width: 100%;
 }
 
 #playAgainBtn {
   position: relative;
+  display: block;
   border-color: black;
   outline-color: black;
-  top: 550px;
-  left: 425px;
+  top: 35vh;
+}
+
+@media screen and (min-width: 575px){
+  #playAgainBtn {
+    left: 18%;
+  }
+}
+
+@media screen and (min-width: 852px){
+  #playAgainBtn {
+    left: 39%;
+  }
 }
 
 #rockBtn {
   position: relative;
+  display: inline-block;
   border-color: black;
   outline-color: red;
-  top: 300px;
-  right: 200px;
-  margin-right: 5px;
+  top: 30vh;
 }
 
 #paperBtn {
   position: relative;
+  display: inline-block;
   border-color: black;
   outline-color: teal;
-  top: 300px;
-  right: 200px;
-  margin-right: 5px;
+  top: 30vh;
 }
 
 #scissorsBtn {
   position: relative;
+  display: inline-block;
   border-color: black;
   outline-color: yellow;
-  top: 300px;
-  right: 200px;
+  top: 30vh;
 }
 
 .popupText {
@@ -47,22 +58,31 @@ body {
 }
 
 #resultDiv {
-  position: absolute;
-  top: 120px;
-  left: 820px;
-  width: 300px;
+  position: relative;
+  top: 15vh;
+  left: 43%;
+  width: 15%;
+  outline: 1px solid black;
+  font-family: Arial;
+  font-weight: bold;
 }
 
 #winnerDiv {
-  position: absolute;
-  top: 120px;
-  left: 820px;
-  width: 300px;
+  position: relative;
+  top: 15vh;
+  left: 43%;
+  width: 15%;
+  outline: 1px solid black;
+  font-family: Arial;
+  font-weight: bold;
 }
 
 #currentScoreDiv {
-  position: absolute;
-  top: 150px;
-  left: 770px;
-  width: 400px;
+  position: relative;
+  top: 16vh;
+  left: 38%;
+  width: 25%;
+  outline: 1px solid black;
+  font-family: Arial;
+  font-weight: bold;
 }
